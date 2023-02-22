@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "description": "gaming laptop",
+      "price": 1500,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "mouse",
+      "description": "gaming mouse",
+      "price": 50,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "keyboard",
+      "description": "gaming keyboard",
+      "price": 100,
+      "inStock": true
+    }
+  ]
+}
