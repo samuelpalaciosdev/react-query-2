@@ -20,6 +20,34 @@
       "description": "gaming keyboard",
       "price": 100,
       "inStock": true
+    },
+    {
+      "name": "asdasd",
+      "description": "asdasd",
+      "price": "123",
+      "inStock": true,
+      "id": 4
+    },
+    {
+      "name": "asdasd",
+      "description": "asdasd",
+      "price": "584",
+      "inStock": true,
+      "id": 5
+    },
+    {
+      "name": "mouse",
+      "description": "gaming",
+      "price": "124",
+      "inStock": true,
+      "id": 6
+    },
+    {
+      "name": "audifonos",
+      "description": "gaming",
+      "price": "75",
+      "inStock": true,
+      "id": 7
     }
   ]
 }
