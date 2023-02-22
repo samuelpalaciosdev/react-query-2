@@ -16,3 +16,10 @@ export const createProduct = async product => {
   });
   return res;
 };
+
+export const deleteProduct = id => {
+  const res = fetch(`${baseUrl}/${id}`, {
+    method: 'DELETE',
+  });
+  return res;
+};
