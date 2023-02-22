@@ -23,3 +23,14 @@ export const deleteProduct = id => {
   });
   return res;
 };
+
+export const updateProduct = async product => {
+  const res = await fetch(`${baseUrl}/${product.id}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(product),
+  });
+  return res;
+};
